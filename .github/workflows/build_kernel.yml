@@ -59,7 +59,7 @@ jobs:
       - name: Upload to kernelsource Release
         uses: softprops/action-gh-release@v2
         with:
-          repository: mst8981/android_kernel_samsung_a55x
+          repository: xyzuniverse/a55x_kernel_build_script
           tag_name: ${{ steps.release_info.outputs.tag }}
           name: Kernel ${{ steps.release_info.outputs.kernel_version }}
           body: |
